@@ -23,6 +23,8 @@
 		D0ED782F19B9E28400199DC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ED782D19B9E28400199DC6 /* InfoPlist.strings */; };
 		D0ED784419BA307300199DC6 /* MRGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784319BA307300199DC6 /* MRGrid.m */; };
 		D0ED784619BA307F00199DC6 /* MRGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784519BA307F00199DC6 /* MRGridTests.m */; };
+		D0ED784919BA30C000199DC6 /* MRRover.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784819BA30C000199DC6 /* MRRover.m */; };
+		D0ED784B19BA30C700199DC6 /* MRRoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784A19BA30C700199DC6 /* MRRoverTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		D0ED784219BA307300199DC6 /* MRGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGrid.h; sourceTree = "<group>"; };
 		D0ED784319BA307300199DC6 /* MRGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGrid.m; sourceTree = "<group>"; };
 		D0ED784519BA307F00199DC6 /* MRGridTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGridTests.m; sourceTree = "<group>"; };
+		D0ED784719BA30C000199DC6 /* MRRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRRover.h; sourceTree = "<group>"; };
+		D0ED784819BA30C000199DC6 /* MRRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRRover.m; sourceTree = "<group>"; };
+		D0ED784A19BA30C700199DC6 /* MRRoverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRRoverTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,8 @@
 			children = (
 				D0ED784219BA307300199DC6 /* MRGrid.h */,
 				D0ED784319BA307300199DC6 /* MRGrid.m */,
+				D0ED784719BA30C000199DC6 /* MRRover.h */,
+				D0ED784819BA30C000199DC6 /* MRRover.m */,
 				D0ED781419B9E28400199DC6 /* AppDelegate.h */,
 				D0ED781519B9E28400199DC6 /* AppDelegate.m */,
 				D0ED781719B9E28400199DC6 /* Main.storyboard */,
@@ -149,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				D0ED784519BA307F00199DC6 /* MRGridTests.m */,
+				D0ED784A19BA30C700199DC6 /* MRRoverTests.m */,
 				D0ED782B19B9E28400199DC6 /* Supporting Files */,
 			);
 			path = MarsRoverKataTests;
@@ -298,6 +306,7 @@
 				D0ED784419BA307300199DC6 /* MRGrid.m in Sources */,
 				D0ED781C19B9E28400199DC6 /* ViewController.m in Sources */,
 				D0ED781619B9E28400199DC6 /* AppDelegate.m in Sources */,
+				D0ED784919BA30C000199DC6 /* MRRover.m in Sources */,
 				D0ED781219B9E28400199DC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0ED784619BA307F00199DC6 /* MRGridTests.m in Sources */,
+				D0ED784B19BA30C700199DC6 /* MRRoverTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
