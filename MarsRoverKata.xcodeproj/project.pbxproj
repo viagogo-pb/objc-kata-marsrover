@@ -21,7 +21,8 @@
 		D0ED782619B9E28400199DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ED780519B9E28400199DC6 /* Foundation.framework */; };
 		D0ED782719B9E28400199DC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ED780919B9E28400199DC6 /* UIKit.framework */; };
 		D0ED782F19B9E28400199DC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ED782D19B9E28400199DC6 /* InfoPlist.strings */; };
-		D0ED783119B9E28400199DC6 /* MarsRoverKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED783019B9E28400199DC6 /* MarsRoverKataTests.m */; };
+		D0ED784419BA307300199DC6 /* MRGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784319BA307300199DC6 /* MRGrid.m */; };
+		D0ED784619BA307F00199DC6 /* MRGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED784519BA307F00199DC6 /* MRGridTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,9 @@
 		D0ED782419B9E28400199DC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D0ED782C19B9E28400199DC6 /* MarsRoverKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarsRoverKataTests-Info.plist"; sourceTree = "<group>"; };
 		D0ED782E19B9E28400199DC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D0ED783019B9E28400199DC6 /* MarsRoverKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsRoverKataTests.m; sourceTree = "<group>"; };
+		D0ED784219BA307300199DC6 /* MRGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGrid.h; sourceTree = "<group>"; };
+		D0ED784319BA307300199DC6 /* MRGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGrid.m; sourceTree = "<group>"; };
+		D0ED784519BA307F00199DC6 /* MRGridTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGridTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		D0ED780B19B9E28400199DC6 /* MarsRoverKata */ = {
 			isa = PBXGroup;
 			children = (
+				D0ED784219BA307300199DC6 /* MRGrid.h */,
+				D0ED784319BA307300199DC6 /* MRGrid.m */,
 				D0ED781419B9E28400199DC6 /* AppDelegate.h */,
 				D0ED781519B9E28400199DC6 /* AppDelegate.m */,
 				D0ED781719B9E28400199DC6 /* Main.storyboard */,
@@ -143,7 +148,7 @@
 		D0ED782A19B9E28400199DC6 /* MarsRoverKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				D0ED783019B9E28400199DC6 /* MarsRoverKataTests.m */,
+				D0ED784519BA307F00199DC6 /* MRGridTests.m */,
 				D0ED782B19B9E28400199DC6 /* Supporting Files */,
 			);
 			path = MarsRoverKataTests;
@@ -290,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED784419BA307300199DC6 /* MRGrid.m in Sources */,
 				D0ED781C19B9E28400199DC6 /* ViewController.m in Sources */,
 				D0ED781619B9E28400199DC6 /* AppDelegate.m in Sources */,
 				D0ED781219B9E28400199DC6 /* main.m in Sources */,
@@ -300,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0ED783119B9E28400199DC6 /* MarsRoverKataTests.m in Sources */,
+				D0ED784619BA307F00199DC6 /* MRGridTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
